@@ -29,13 +29,23 @@
     }
 
     #login #imagem{
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
 
     #login .formulario{
-        float: right;
+        float: left;
         width: 50%;
+    }
+    .formulario{
+        text-align: center;
+        margin-bottom: 10px;
+        h1{
+            font-size: 2em;
+        }
+        p{
+            font-size: 1.2em;
+        }
     }
 }
